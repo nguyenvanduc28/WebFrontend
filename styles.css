@@ -1,7 +1,4 @@
-html {
-    width: 1920px;
-    height: 1080px;
-}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -87,13 +84,16 @@ header .socials a{
 
 header .hero {
     margin-top: 137px;
-    margin-left: calc(100% - 1320px);
 }
 
+
+header .hero {
+    margin-top: 100px;
+}
 header .page-title {
     width: 500px;
+    display: inline-block;
 }
-
 header .page-title p:first-child {
     font-size: 80px;
     line-height: 108px;
@@ -105,10 +105,11 @@ header .page-title p:last-of-type {
     line-height: 42px;
     color: #5e5858;
 }
-
+header .hero .img-title {
+    display: inline-block;
+}
 header .hero .img-title img{
-    width: 700px;
-    margin-right: 60px;
+    width: 600px;
 }
 
 header .hero .page-title a {
