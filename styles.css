@@ -64,7 +64,7 @@ header .menu li a {
     padding: 0 17px;
 }
 
-header .top-bar button {
+header .top-bar button, .menu-projects div button{
     font-size: 18px;
     font-weight:bold;
     height: 48px;
@@ -280,14 +280,14 @@ header .hero .page-title a, .creative-team .sub-team a{
     margin-bottom: 30px;
 }
 
-.menu-what-we-do div h1 {
+.menu-what-we-do div h1, .menu-projects div h2{
     font-size: 30px;
     line-height: 42px;
     color: #111111;
     margin-bottom: 20px;
 }
 
-.menu-what-we-do div p {
+.menu-what-we-do div p, .menu-projects div p {
     font-size: 20px;
     line-height: 28px;
     color: #5e5858;
@@ -297,4 +297,55 @@ header .hero .page-title a, .creative-team .sub-team a{
 
 .menu-what-we-do div>a>img {
     margin-top: 50px;
+}
+
+/* Projects */
+
+#projects {
+    background: #ffffff url(images/backgroundsite3.png) no-repeat center top;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 250px;
+}
+
+.title-projects {
+    text-align: center;
+    margin-bottom: 107px;
+}
+
+.title-projects p, .menu-projects div p:nth-child(1){
+    font-size: 24px;
+    line-height: 70px;
+    color: #c04ae2;
+}
+
+.title-projects h2 {
+    font-size: 60px;
+    line-height: 70px;
+    width: 750px;
+    margin: 0 auto;
+    font-weight: 600;
+}
+
+.menu-projects {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.menu-projects div * {
+    display: inline-block;
+}
+.menu-projects div p, .menu-projects div h2, .menu-projects div {
+    width: 560px;
+}
+
+.menu-projects div{
+    margin-bottom: 90px;
+}
+
+.menu-projects div h2 {
+    margin-bottom: 35px;
+}
+
+.menu-projects div button {
+    margin-top: 45px;
 }
