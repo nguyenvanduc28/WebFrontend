@@ -30,7 +30,9 @@ header {
     display: flex;
     justify-content: space-between;
 }
-
+ .flex {
+    display: flex;
+ }
 ul.list-inline li {
     display: inline;
 }
@@ -126,4 +128,66 @@ header .hero .page-title a {
     padding: 0 60px;
     margin-top: 30px;
     box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* section Introduction */
+
+#introduction {
+    background: #fffefd url(images/backgroundsite2.png) no-repeat center top;
+    background-size: cover;
+    padding-top: 190px;
+    padding-bottom: 265px;
+}
+
+.build-trust-first div.contain {
+    text-align: center;
+}
+
+.build-trust-first .contain p:first-child {
+    font-size: 20px;
+    line-height: 70px;
+    color: #c04ae2;
+    text-transform: uppercase;
+}
+.build-trust-first .contain p:last-of-type {
+    width: 770px;
+    font-size: 60px;
+    line-height: 70px;
+    margin: 0 auto;
+    color: #111111;
+    font-weight: 500;
+}
+
+.build-trust-first .grid {
+    margin-top: 125px;
+    justify-content: space-between;
+}
+
+.build-trust-first .grid div {
+    width: 370px;
+    height: 496px;
+    border: 6px solid #fcd7df;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.build-trust-first .grid img {
+    display: block;
+    margin: 90px auto 45px auto;
+}
+
+.build-trust-first .grid h1{
+    width: 275px;
+    margin: 0 auto;
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 500;
+}
+
+.build-trust-first .grid p {
+    width: 276px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 28px;
+    color: #5e5858;
 }
