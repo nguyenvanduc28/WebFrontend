@@ -17,6 +17,7 @@ a {
 }
 header {
     background: #ebeafa url(images/background.png) no-repeat center top;
+    background-size: cover;
     padding-top: 48px;
     padding-bottom: 265px;
 }
