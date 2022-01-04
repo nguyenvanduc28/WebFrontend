@@ -432,3 +432,10 @@ header .hero .page-title a, .creative-team .sub-team a{
     color: #adb0ba;
     margin-left: 20px;
 }
+
+/* reponsive */
+@media screen and (max-width: 1788px){
+    header, section {
+        /* background-size: 100% auto; */
+    }
+}
