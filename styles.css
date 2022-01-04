@@ -143,13 +143,14 @@ header .hero .page-title a, .creative-team .sub-team a{
     text-align: center;
 }
 
-.build-trust-first .contain p:first-child {
+.build-trust-first .contain p:first-child, .testimonial>div>p.title, .title-projects p, .menu-projects div p:nth-child(1), .title-meet-our-team p {
     font-size: 20px;
     line-height: 70px;
     color: #c04ae2;
     text-transform: uppercase;
+    font-family: Overpass, sans-serif;
 }
-.build-trust-first .contain p:last-of-type {
+.build-trust-first .contain p:last-of-type, .title-meet-our-team h2{
     width: 770px;
     font-size: 60px;
     line-height: 70px;
@@ -201,7 +202,7 @@ header .hero .page-title a, .creative-team .sub-team a{
     height: 500px;
 }
 
-.creative-team .sub-team h1 {
+.creative-team .sub-team h1{
     font-size: 60px;
     line-height: 72px;
     font-weight: 600;
@@ -209,13 +210,13 @@ header .hero .page-title a, .creative-team .sub-team a{
     margin-bottom: 25px;
 }
 
-.creative-team .sub-team p:first-of-type {
+.creative-team .sub-team p:first-of-type{
     font-size: 24px;
     line-height: 36px;
     color: #5e5858;
     margin-bottom: 25px;
 }
-.creative-team .sub-team p:last-of-type {
+.creative-team .sub-team p:last-of-type,  .testimonial p.sub{
     font-size: 20px;
     line-height: 32px;
     color: #5e5858;
@@ -313,13 +314,7 @@ header .hero .page-title a, .creative-team .sub-team a{
     margin-bottom: 107px;
 }
 
-.title-projects p, .menu-projects div p:nth-child(1){
-    font-size: 24px;
-    line-height: 70px;
-    color: #c04ae2;
-}
-
-.title-projects h2 {
+.title-projects h2{
     font-size: 60px;
     line-height: 70px;
     width: 750px;
@@ -348,4 +343,92 @@ header .hero .page-title a, .creative-team .sub-team a{
 
 .menu-projects div button {
     margin-top: 45px;
+}
+#projects>div:last-of-type {
+    width: 140px;
+    height: 40px;
+    margin: 0 auto;
+    border-bottom: 2px solid #c04ae2;
+
+}
+#projects div>a {
+    text-align: center;
+    color: #111111;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+    font-family: Overpass, sans-serif;
+}
+/* meet our team */
+#meet-our-team {
+    background: #ffffff url(images/backgroundsite4.png) no-repeat center top;
+    background-size: cover;
+    padding-top: 220px;
+    padding-bottom: 150px;
+}
+
+.title-meet-our-team {
+    text-align: center;
+}
+
+.title-meet-our-team h2 {
+    margin-bottom: 155px;
+}
+.sub-meet-team {
+    justify-content: space-between;
+    margin-bottom: 285px;
+}
+.sub-meet-team div img {
+    margin-bottom: 36px;
+}
+.sub-meet-team div h3 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #111111;
+    margin-bottom: 14px;
+}
+.sub-meet-team div p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #adb0ba;
+}
+.sub-meet-team div:nth-child(2), .sub-meet-team div:nth-child(4) {
+    transform: translateY(72px);
+}
+
+.testimonial {
+    justify-content: space-between;
+}
+.testimonial>div:nth-child(1){
+    width: 563px;
+    margin: auto 0;
+}
+.testimonial>div:last-of-type, .testimonial>div:last-of-type img{
+    width: 550px;
+    height: 690px;
+}
+
+.testimonial>div:nth-child(1) {
+    position: relative;
+}
+.testimonial.testimonial>div:nth-child(1)>img {
+    position: absolute;
+    left: -127px;
+}
+.testimonial h2 {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.testimonial i, .testimonial h3, .testimonial p.sub-author {
+    display: inline-block;
+}
+
+.testimonial p.sub-author {
+    font-size: 13px;
+    line-height: 24px;
+    color: #adb0ba;
+    margin-left: 20px;
 }
